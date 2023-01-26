@@ -27,7 +27,7 @@ const mycomputer = Math.floor(Math.random() * 6) + 1;
 console.log(mycomputer);
 const person = Math.floor(Math.random() * 6) + 1;
 console.log(person);
-// 
+// fare la condizione
 if (mycomputer > person) {
     alert("ha vinto il computer");
 }
