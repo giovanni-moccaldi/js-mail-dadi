@@ -13,10 +13,10 @@ console.log(text);
 
 for (let i = 1; i < email.length; i++) {
     console.log(email[i]);
-    if (text == email) {
+    if (text[i] == email[i]) {
         alert("bravo,la tua email é giusta");
     }
-    else if (text != email) {
+    else if (text[i] != email[i]) {
         alert("Hai dimenticato la tua email?riprova");
     }
 
