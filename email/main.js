@@ -16,12 +16,13 @@ let trovato = false;
 for (let i = 0; i < email.length && trovato == false; i++) {
 
     if (text == email[i]) {
-        alert("bravo,la tua email é giusta");
         trovato = true;
+        console.log(trovato)
 
     }
     if (trovato == false) {
-        alert("Hai dimenticato la tua email?riprova");
+        console.log(trovato)
+
     }
 }
 
